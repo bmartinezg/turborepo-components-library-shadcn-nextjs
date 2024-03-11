@@ -1,6 +1,10 @@
 {
-  "name": "my-turborepo",
+  "name": "components-library-tailwind-shadcn",
   "private": true,
+  "author": {
+    "name": "Bruno Martínez",
+    "email": "bruno.margonzz@gmail.com"
+  },
   "scripts": {
     "build": "turbo build",
     "dev": "turbo dev",
@@ -14,7 +18,7 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "yarn@1.22.19",
+  "packageManager": "pnpm@7.16.1",
   "workspaces": [
     "apps/*",
     "packages/*"

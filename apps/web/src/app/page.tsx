@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Badge, Demo } from "shadcn-tailwind";
+import { Badge, Demo } from "@turbo/ui";
 
 export default function Home() {
   return (
