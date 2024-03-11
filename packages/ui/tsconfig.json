@@ -1,0 +1,11 @@
+{
+  "extends": "@turbo/typescript-config/ui-library.json",
+  "include": ["src"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    },
+  },
+  "exclude": ["dist", "build", "node_modules"]
+}

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Badge, Demo } from "@turbo/ui";
+import { Badge, Demo } from "../../../../packages/ui/src";
 
 export default function Home() {
   return (
