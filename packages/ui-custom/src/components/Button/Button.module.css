@@ -1,0 +1,8 @@
+.Button {
+  background-color: red;
+}
+
+.Button:hover {
+  background-color: blue;
+  color: white;
+}
